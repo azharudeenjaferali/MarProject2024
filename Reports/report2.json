@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-04-20T09:14:17.162Z",
+        "before": [
+          {
+            "result": {
+              "duration": 996700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.aiite.hookspack.HooksImp.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "This scenario is to test the Login functionality",
+        "description": "",
+        "id": "this-feature-is-to-test-the-login-page-scenarios;this-scenario-is-to-test-the-login-functionality",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.aiite.hookspack.HooksImp.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5012509300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch browser and load facebook url",
+            "match": {
+              "location": "com.aiite.pageexecution.LoginPageStepDefinition.launch_browser_and_load_facebook_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 272992500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Provide the valid username and password and sign in",
+            "match": {
+              "location": "com.aiite.pageexecution.LoginPageStepDefinition.provide_the_valid_username_and_password_and_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 206989700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate if the login successful the specific user.",
+            "match": {
+              "location": "com.aiite.pageexecution.LoginPageStepDefinition.validate_if_the_login_successful_the_specific_user()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to test the Login Page scenarios",
+    "description": "",
+    "id": "this-feature-is-to-test-the-login-page-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/LoginPageScenarios.feature",
+    "tags": []
+  }
+]
