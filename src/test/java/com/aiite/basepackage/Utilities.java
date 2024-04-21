@@ -12,6 +12,10 @@ public class Utilities {
 		System.out.println(LocalDateTime.now());
 	}
 	
+	public static void welcomeMsg() {
+		System.out.println("Welcome to the Team!");
+	}
+	
 	public static String readProperty(String key) throws IOException{
 		File file = new File("C:\\Users\\Dell\\eclipse-workspace\\WebAutomation\\src\\test\\resources\\PropertyFiles\\Credentials.properties");
 		FileInputStream fis = new FileInputStream(file);
